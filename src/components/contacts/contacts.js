@@ -39,10 +39,10 @@ function Contacts() {
         if (name && email && message) {
             if (isEmail(email)) {
                 emailjs.sendForm(
-                    'service_7youdki',
-                    'template_h7o6dra',
-                    form.current, 'kSOnV-6fPaXokgkR4')
-                    .then(() => {
+                    process.env.REACT_APP_YOUR_SERVICE_ID,
+                    process.env.REACT_APP_YOUR_TEMPLATE_ID,
+                    form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
+                    .then((result) => {
                         console.log('success');
                         setSuccess(true);
                         setErrMsg('');
@@ -82,7 +82,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='Enter your name'
+                                    placeholder='John Doe'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -104,7 +104,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='Enter your email'
+                                    placeholder='John@doe.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'

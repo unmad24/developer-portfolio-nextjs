@@ -5,7 +5,7 @@ export const blogData = [
         description: 'Here we will use Selenium to navigate between web pages, and try to scrape data from them.',
         date: 'Aug 7, 2020',
         image: 'https://1.bp.blogspot.com/-jhdtUBIRD_s/XxLFKQuRz9I/AAAAAAAABsM/mClfbfDFKvsUwA7Wyi25Lzu3DEmL2lxrACNcBGAsYHQ/s1919/gta.jpg',
-        url: 'https://www.linkedin.com/posts/emtiasur-rahman-788103187_nestjs-nodejs-typescript-activity-7060884119446028288-sXPF?utm_source=share&utm_medium=member_desktop'
+        url: ''
     },
     {
         id: 2,

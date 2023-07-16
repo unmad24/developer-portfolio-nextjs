@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Shahjalal University Of Science And Technology, Sylhet',
-        course: 'B.Sc In Computer Science And Engineering',
-        startYear: '2018',
-        endYear: '2022'
+        institution: 'Noakhali Government College',
+        course: 'Bachelor Degree',
+        startYear: '2020',
+        endYear: 'Present'
     },
     {
         id: 2,
-        institution: 'Govt. City College, Chattogram',
+        institution: 'Noakhali Islamia Kamil Madrasah',
         course: 'Higher Secondary',
-        startYear: '2014',
-        endYear: '2016'
+        startYear: '2018',
+        endYear: '2020'
     },
     {
         id: 3,
-        institution: 'South Satkania Golambari Govt. Model High School, Lohagara',
+        institution: 'Baitus Saif Islamia Madrasah',
         course: 'Secondary School',
-        startYear: '2009',
-        endYear: '2014'
+        startYear: '2008',
+        endYear: '2018'
     },
 ]

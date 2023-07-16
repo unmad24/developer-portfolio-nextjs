@@ -121,10 +121,6 @@
 }
 
 @media screen and (max-width: 800px) {
-  .experience{
-    position: relative;
-    top: 100px;
-  }
   .experienceDescription > h1 {
     font-size: 3rem;
     margin-bottom: 2rem;

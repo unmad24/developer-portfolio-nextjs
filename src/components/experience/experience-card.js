@@ -11,6 +11,8 @@ function ExperienceCard({ id, company, jobtitle, startYear, endYear }) {
 
     const { theme } = useContext(ThemeContext);
 
+
+
     return (
         <Fade bottom>
             <div key={id} className={`${styles.experienceCard} bg-[#1E2732]`}>

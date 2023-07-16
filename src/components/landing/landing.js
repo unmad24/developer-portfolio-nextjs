@@ -100,12 +100,12 @@ function Landing() {
                         style={{ color: theme.tertiary }}
                     >
                         {/* <h6 style={{ color: theme.primary }}>{headerData.title}</h6> */}
-                        <h1 className='pt-24 md:pt-0'>{headerData.name}</h1>
+                        <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Researcher',
                                 'Backend Developer',
-                                'Software Engineer']}
+                                'Frontend Developer',
+                                'Fullstack Developer']}
                             typeSpeed={40}
                             backSpeed={50}
                             className={styles.typedHeader}
@@ -142,7 +142,7 @@ function Landing() {
                                 w-36 text-base font-medium h-12 border-[3px]
                                  border-[#1D9BF0] transition duration-100 
                                  ease-out hover:bg-[#8B98A5] hover:text-[#15202B]
-                                  hover:border-[#8B98A5]  sm:block"
+                                  hover:border-[#8B98A5] hidden sm:block "
                                 >
                                     Contact
                                 </button>
