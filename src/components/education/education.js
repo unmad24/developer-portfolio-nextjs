@@ -22,6 +22,7 @@ function Education() {
                         <h1 style={{ color: theme.primary }}>Education</h1>
                         {educationData.map(edu => (
                             <EducationCard
+                            className=""
                                 key={edu.id}
                                 id={edu.id}
                                 institution={edu.institution}

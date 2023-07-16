@@ -210,13 +210,15 @@
   }
   .lcrButtonContainer {
     margin: 0 auto;
+    margin-bottom: 15rem;
+    margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .lcrButtonContainer button {
+  /* .lcrButtonContainer button {
     margin-top: -20%;
-  }
+  } */
 }
 
 @media (max-width: 500px) {
@@ -227,7 +229,7 @@
 
 @media (max-width: 370px) {
   .lcrContent {
-    margin-top: 60%;
+    margin-top: 28rem;
   }
 }
 

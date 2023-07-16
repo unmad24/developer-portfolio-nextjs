@@ -11,29 +11,29 @@ import two from '../assets/svg/projects/two.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
+        projectName: 'WP ERP',
+        projectDesc: 'WordPress website builder website including a lot of features and a complete guide for building ERP software. I have learned mobile responsiveness through this project and as it has a lot of functionality, this project helped me to ace my beginning frontend knowledge.',
         tags: ['React', 'SAAS', 'React Bootstrap'],
         code: '',
-        demo: 'https://www.aylanetworks.com/',
+        demo: 'https://eloquent-pike-a42601.netlify.app/',
         image: six
     },
     {
         id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
+        projectName: 'Theme Wagon Hire',
+        projectDesc: 'This is a job hiring agency, a fully responsive Single Page Application. Built with react-bootstrap package and some CSS where I need to customize the styling.',
         tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
+        code: ' ',
+        demo: 'https://theme-wagon-hire.vercel.app/',
         image: seven
     },
     {
         id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
+        projectName: 'Fluid Support',
+        projectDesc: 'WordPress website builder website. I have learnt lots of CSS tricks and reverse engineering during this project',
         tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
+        code: ' ',
+        demo: 'https://sharp-torvalds-16e1cf.netlify.app/',
         image: eight
     },
     {
